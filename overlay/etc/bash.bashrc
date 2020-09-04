@@ -10,3 +10,6 @@ alias ..6="cd ../../../../../../"
 alias ..7="cd ../../../../../../../"
 alias ..8="cd ../../../../../../../../"
 alias cdd="cd ~/Desktop"
+
+# pushd shortcut
+alias pd="pushd"
