@@ -10,3 +10,6 @@ fi
 
 # directory to be searched when cd
 CDPATH=.:~:~/.Desktop
+
+# script -> save script to log file
+smart_script
