@@ -7,4 +7,6 @@ sudo apt install git wget curl -y
 sudo apt install gnome-terminal -y
 # file content
 sudo apt install apt-file -y
-
+# library
+# libncurses-dev -> gtags,linux kernel
+sudo apt install libncurses-dev -y
