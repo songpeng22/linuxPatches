@@ -7,18 +7,22 @@ Plug 'flazz/vim-colorschemes'
 Plug 'scrooloose/nerdtree'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'skywind3000/gutentags_plus'
+Plug 'skywind3000/vim-preview'
 call plug#end()
 " vim-plug colorscheme
 " colorscheme molokai
-colorscheme bluez
+" colorscheme bluez
+colorscheme developer
 
 " vim-plug gutentags
 " gutentags: enable gtags module
 let g:gutentags_modules = ['ctags', 'gtags_cscope']
 " gutentags: config project root markers.
-let g:gutentags_project_root = ['.root']
+let g:gutentags_project_root = ['.root', '.git']
 " gutentags: generate datebases in my cache directory, prevent gtags files polluting my project
 let g:gutentags_cache_dir = expand('~/.cache/tags')
+" gutentags: enable debug message
+" let g:gutentags_trace = 1
 " gutentags: find symbol
 noremap <silent> <leader>gs :GscopeFind s <C-R><C-W><cr>
 " gutentags: find definition
